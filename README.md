@@ -6,13 +6,30 @@ badger2040_soundbadge is a wearable e-paper badge that helps individuals with au
 
 badger2040_soundbadge プロジェクトは聴覚過敏の方々のための電子ペーパーバッジです。[Badger 2040](https://shop.pimoroni.com/products/badger-2040)を使っています。
 
+# Motivation / 開発のきっかけ
+
+This project was born out of a personal need.
+
+When my second child turned two, our home became increasingly noisy — with both children and my partner frequently talking to me, alongside the constant background of the TV and other sounds.
+
+As someone with auditory hypersensitivity, it became increasingly difficult to cope.
+To gently let my family know when things were getting too loud and encourage them to lower their voices, I built this badge.
+
+\[日本語\]
+
+このバッジは、私自身の困りごとから生まれました。
+
+数年前、2人目の子どもが2歳になった頃から、家の中はどんどんにぎやかに。子どもたちや妻が同時に僕に話しかけてくる中で、テレビや生活音も重なり、聴覚過敏の症状が強くなっていきました。
+
+そこで、家族、とくに妻や上の子に「今ちょっと音がつらい」とやんわり伝え、声のボリュームを抑えてもらうために、このバッジを作りました。
+
 # Hardware / ハードウェア
 
 | Component | Product Name | Description |
 |----------|---------------|-------------|
 | Main Board | [Pimoroni Badger 2040](https://shop.pimoroni.com/products/badger-2040) | An e-paper badge based on the Raspberry Pi RP2040 |
-| Sound Sensor | [Zio Qwiic Loudness Sensor](https://www.sparkfun.com/products/17350) | Detects ambient sound levels |
-| LED Indicator | [SparkFun Qwiic Button](https://www.sparkfun.com/products/15586) | Used only for its built-in RGB LED, not as a button |
+| Sound Sensor | [Zio Qwiic Loudness Sensor](https://www.smart-prototyping.com/Zio-Qwiic-Loudness-Sensor-I2C) | Detects ambient sound levels |
+| LED Indicator | [SparkFun Qwiic Button](https://www.sparkfun.com/sparkfun-qwiic-button-red-led.html) | Used only for its built-in RGB LED, not as a button |
 
 All components are connected via Qwiic (I2C) for solderless assembly.
 
@@ -21,8 +38,8 @@ All components are connected via Qwiic (I2C) for solderless assembly.
 | パーツ | 製品名 | 説明 |
 |-------|---------------|------|
 | 本体 | [Badger 2040](https://shop.pimoroni.com/products/badger-2040) | Raspberry Pi RP2040搭載の電子ペーパーバッジ |
-| 音量センサー | [Zio Qwiic Loudness Sensor](https://www.sparkfun.com/products/17350) | 周囲の音量をリアルタイムで測定 |
-| ステータスLED | [SparkFun Qwiic Button](https://www.sparkfun.com/products/15586) | ボタンとしては使用せず、内蔵LEDをステータス表示に使用 |
+| 音量センサー | [Zio Qwiic Loudness Sensor](https://www.smart-prototyping.com/Zio-Qwiic-Loudness-Sensor-I2C) | 周囲の音量をリアルタイムで測定 |
+| ステータスLED | [SparkFun Qwiic Button](https://www.sparkfun.com/sparkfun-qwiic-button-red-led.html) | ボタンとしては使用せず、内蔵LEDをステータス表示に使用 |
 
 Qwiic（I2C）接続で、はんだづけなしで配線できます。
 
