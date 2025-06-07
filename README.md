@@ -6,6 +6,10 @@ badger2040_soundbadge is a wearable e-paper badge that helps individuals with au
 
 badger2040_soundbadge プロジェクトは聴覚過敏の方々のための電子ペーパーバッジです。[Badger 2040](https://shop.pimoroni.com/products/badger-2040)を使っています。
 
+# Video / 動画
+
+![video](video.gif)
+
 # Motivation / 開発のきっかけ
 
 This project was born out of a personal need.
@@ -52,10 +56,6 @@ If the sound level exceeds the defined threshold, it activates the LED (red) and
 
 本デバイスはラウドネスセンサーを使って、周囲の音量をリアルタイムに計測します。  
 音量が設定したしきい値を超えると、LEDが赤く点灯し、電子ペーパーにメッセージを表示します。
-
-# Video / 動画
-
-![video](video.gif)
 
 # Installation / インストール方法
 
